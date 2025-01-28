@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: yellowgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+input{
+    /* height: 30px; */
+    margin-top: 35px;
+    border-radius: 10PX;
+    BORDER:NONE;
+    width: 40%;
+    padding: 10px;
+    /* cursor: pointer; */
+}
+.error-text{
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+
+.qr-code-btn{
+    /* margin-top: 35px; */
+    padding: 10px;
+    border:none;
+    border-radius: 10px;
+    border:none;
+    cursor:  pointer;
+}
+
+
+.qr-code-container{
+    padding: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
